@@ -10,7 +10,6 @@ class Q1 {
         String pin = sc.nextLine();
 
         boolean isValid = true;
-
         // Check length
         if (pin.length() != 4) {
             isValid = false;
