@@ -3,7 +3,7 @@ a Java program using loops and conditional constructs to validate the PIN (must 
 exactly 4 digits, numeric only).*/
 import java.util.Scanner;
 
-public class niv {
+class Q1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your 4-digit PIN: ");
