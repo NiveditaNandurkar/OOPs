@@ -11,6 +11,6 @@ class Q10 {
         System.out.println("Public field from hr package: " + e.empId);
         a.checkAccess();
 
-        
+    
     }
 }
