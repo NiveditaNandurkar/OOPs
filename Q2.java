@@ -11,7 +11,6 @@ public class Q2 {
         int daysLate = sc.nextInt();
 
         int fine = 0;
-
         if (daysLate > 0) {
             fine = daysLate * 5;
             System.out.println("Fine amount: ₹" + fine);
