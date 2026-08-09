@@ -7,7 +7,6 @@ class Q10 {
     public static void main(String[] args) {
         Employee e = new Employee();
         Admin a = new Admin();
-
         System.out.println("Public field from hr package: " + e.empId);
         a.checkAccess();
 
