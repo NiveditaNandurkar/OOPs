@@ -12,7 +12,6 @@ class Q11 {
 
     public static void main(String[] args) {
         User user = new User();
-
         System.out.println(user.checkPassword("abc@123"));
         System.out.println(user.checkPassword("wrongpass"));
     }
