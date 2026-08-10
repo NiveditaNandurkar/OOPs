@@ -10,7 +10,6 @@ class Q6 {
         void calculateTotal(int price, int quantity) {
             System.out.println("Total bill: ₹" + (price * quantity));
         }
-
         void calculateTotal(int price, int quantity, double discount) {
             double total = price * quantity;
             double discounted = total - (total * discount / 100);
