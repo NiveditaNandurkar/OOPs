@@ -8,7 +8,6 @@ class Q3 {
         taxRate = 18;
         System.out.println("Static block executed: tax rate initialized to " + taxRate + "%");
     }
-
     public static void main(String[] args) {
         Employee e1 = new Employee();
         Employee e2 = new Employee();
