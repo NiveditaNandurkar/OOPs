@@ -1,7 +1,6 @@
 /*
 12. A company wants employee salaries to only be increased (never decreased) through a public method, with the actual salary variable kept private. Write a Java program for a class Employee implementing this validation logic.
 */
-
 class Q12 {
     static class Employee {
         private double salary;
