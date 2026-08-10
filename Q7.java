@@ -10,7 +10,6 @@ class Q7 {
             this.name = name;
             this.salary = salary;
         }
-
         double calculateBonus() {
             return salary * 0.10;
         }
