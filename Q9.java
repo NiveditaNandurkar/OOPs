@@ -8,7 +8,6 @@ class Q9 {
         Engine(String type) {
             this.type = type;
         }
-
         void showEngineDetails() {
             System.out.println("Engine type: " + type);
         }
