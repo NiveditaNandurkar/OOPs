@@ -4,7 +4,6 @@
 class Q8 {
     public static void main(String[] args) {
         String ageText = "19";
-
         Integer age = Integer.valueOf(ageText);
 
         if (age >= 18) {
